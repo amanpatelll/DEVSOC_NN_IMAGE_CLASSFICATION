@@ -61,9 +61,10 @@ The size of the step is determined by the learning rate.
 
    Calculates loss and accuracy.
    
-11. save method:
+12. save method:
     
    Saves the model's weights and biases to a file using pickle.
+   
 13. load method:
     Loads weights and biases from a file and assigns them to the appropriate layers.
 
