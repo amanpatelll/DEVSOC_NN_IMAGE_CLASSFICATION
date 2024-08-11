@@ -91,5 +91,7 @@ For submission a csv file is created that has the image id (index) and the predi
 The model is saved and the paramters (weights and biases) are loaded . 
 
 THANK YOU
+
 AMAN PATEL 
+
 BITS PILANI - GOA CAMPUS
