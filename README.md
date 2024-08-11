@@ -44,7 +44,7 @@ The size of the step is determined by the learning rate.
 6. backward method:
    Performs a backward pass through all layers in reverse order.
 7. train method:
-8. 
+   
    Trains the model for a specified number of epochs and batch size.
 
    Shuffles the data for each epoch.
@@ -54,18 +54,19 @@ The size of the step is determined by the learning rate.
    Updates weights and biases using the optimizer.\
 
    Prints the average loss for each epoch.
-9. predict method:
+8. predict method:
    Makes predictions on new data by performing a forward pass.
-10. evaluate method:
+9. evaluate method:
+    
    Evaluates the model's performance on a dataset.
 
    Calculates loss and accuracy.
    
-12. save method:
+11. save method:
     
    Saves the model's weights and biases to a file using pickle.
    
-13. load method:
+12. load method:
     Loads weights and biases from a file and assigns them to the appropriate layers.
 
     Handles potential mismatches between the saved weights and the model's current architecture.
