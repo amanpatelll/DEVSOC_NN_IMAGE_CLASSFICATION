@@ -2,7 +2,7 @@
 This repository is devoted to the DevSoc assignment on neural networks for mnist image classification .
 
 The code has been evaluated through the DIGIT RECOGNIZER competition on kaggle . 
-link = "https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=3004&sortBy=dateRun&tab=profile&excludeNonAccessedDatasources=false"
+link = https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=3004&sortBy=dateRun&tab=profile&excludeNonAccessedDatasources=false
 
 Accuracy obtained = 92.810
 
@@ -60,10 +60,11 @@ The size of the step is determined by the learning rate.
    Evaluates the model's performance on a dataset.
 
    Calculates loss and accuracy.
+   
 11. save method:
+    
    Saves the model's weights and biases to a file using pickle.
-12. load method:
-
+13. load method:
     Loads weights and biases from a file and assigns them to the appropriate layers.
 
     Handles potential mismatches between the saved weights and the model's current architecture.
