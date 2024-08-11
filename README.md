@@ -70,5 +70,26 @@ The size of the step is determined by the learning rate.
 
     Handles potential mismatches between the saved weights and the model's current architecture.
 
-
+# ONE HOT ENCODING AND NORMALIZING -
 One - Hot encoding is done to make sure that the data is represented numerically
+Features (X_train) are normalized pixel values.
+Labels (y_train) are one-hot encoded representations of the digits.
+
+# COMPILING AND TRAINING THE MODEL -
+The model is created with 4 layers -
+
+The first layer has the Linear function .
+The second layer has ReLU func . 
+The third layer has Linear func . 
+And the last layer has the softmax function in order to calculate the probabilites of the digits . 
+
+SGD Optimier is used with learning rate 0.01 ( feel free to experiment ) .
+
+# SUBMISSION AND EVALUATION -
+For submission a csv file is created that has the image id (index) and the predicted label of the test dataset . 
+
+The model is saved and the paramters (weights and biases) are loaded . 
+
+THANK YOU
+AMAN PATEL 
+BITS PILANI - GOA CAMPUS
