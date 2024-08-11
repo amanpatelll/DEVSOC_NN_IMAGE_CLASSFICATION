@@ -6,7 +6,7 @@ link = "https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=
 
 Accuracy obtained = 92.810
 
-LINEAR LAYER CLASS 
+# LINEAR LAYER CLASS 
 A linear layer class is created that implements a fully connected (linear) layer.
 The forward method computes the forward pass: y = Wx + b . 
 
@@ -44,19 +44,25 @@ The size of the step is determined by the learning rate.
 6. backward method:
    Performs a backward pass through all layers in reverse order.
 7. train method:
-   *Trains the model for a specified number of epochs and batch size.
-   *Shuffles the data for each epoch.
-   *Performs forward and backward passes for each batch.
-   *Updates weights and biases using the optimizer.\
-   *Prints the average loss for each epoch.
-8. predict method:
+   Trains the model for a specified number of epochs and batch size.
+
+   Shuffles the data for each epoch.
+
+   Performs forward and backward passes for each batch.
+
+   Updates weights and biases using the optimizer.\
+
+   Prints the average loss for each epoch.
+9. predict method:
    Makes predictions on new data by performing a forward pass.
-9. evaluate method:
-   *Evaluates the model's performance on a dataset.
-   *Calculates loss and accuracy.
-10. save method:
+10. evaluate method:
+   Evaluates the model's performance on a dataset.
+
+   Calculates loss and accuracy.
+11. save method:
    Saves the model's weights and biases to a file using pickle.
-11. load method:
-   *Loads weights and biases from a file and assigns them to the appropriate layers.
-   *Handles potential mismatches between the saved weights and the model's current architecture.
+12. load method:
+    Loads weights and biases from a file and assigns them to the appropriate layers.
+
+    Handles potential mismatches between the saved weights and the model's current architecture.
   
