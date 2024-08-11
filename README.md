@@ -69,4 +69,6 @@ The size of the step is determined by the learning rate.
     Loads weights and biases from a file and assigns them to the appropriate layers.
 
     Handles potential mismatches between the saved weights and the model's current architecture.
-  
+
+
+One - Hot encoding is done to make sure that the data is represented numerically
