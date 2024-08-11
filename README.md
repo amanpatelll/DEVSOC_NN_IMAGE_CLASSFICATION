@@ -32,7 +32,7 @@ This class implements the Stochastic Gradient Descent optimization algorithm.
 The SGD algorithm updates the parameters i.e weights and biases in the opposite direction of the gradient of the loss function with respect to the parameters.
 The size of the step is determined by the learning rate.
 
-# MODEL CLASS 
+## MODEL CLASS 
 1. __init__ method:
    Initializes the model with empty lists for layers, loss function, and optimizer.
 3. add_layer method:
