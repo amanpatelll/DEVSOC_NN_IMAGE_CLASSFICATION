@@ -80,8 +80,11 @@ Labels (y_train) are one-hot encoded representations of the digits.
 The model is created with 4 layers -
 
 The first layer has the Linear function .
+
 The second layer has ReLU func . 
+
 The third layer has Linear func . 
+
 And the last layer has the softmax function in order to calculate the probabilites of the digits . 
 
 SGD Optimier is used with learning rate 0.01 ( feel free to experiment ) .
