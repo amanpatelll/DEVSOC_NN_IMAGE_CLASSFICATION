@@ -7,31 +7,31 @@ link = https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=3
 
 Accuracy obtained = 92.810
 
--LINEAR LAYER CLASS
+-LINEAR LAYER CLASS-
 
 A linear layer class is created that implements a fully connected (linear) layer.
 
 The forward method computes the forward pass: y = Wx + b . 
 
--RELU ACTIVATION FUNC CLASS 
+-RELU ACTIVATION FUNC CLASS-
 
 This class implements the ReLU activation function.
 
 ReLU activation function goes like this: f(x) = max(0, x) .
 
--SIGMOID ACTIVATION FUNC CLASS
+-SIGMOID ACTIVATION FUNC CLASS-
 
 This class implements the sigmoid activation function.
 
 Sigmoid activation function goes like this: f(x) = 1 / (1 + e^(-x)).
 
--TANH ACTIVATION FUNC CLASS
+-TANH ACTIVATION FUNC CLASS-
 
 This class implements the tanh activation function.
 
 Tanh activation function goes like this: f(x) = (e^x - e^(-x)) / (e^x + e^(-x)).
 
--SOFTMAX ACTIVATION FUNC CLASS
+-SOFTMAX ACTIVATION FUNC CLASS-
 
 This class implements the softmax activation function.
 
@@ -39,7 +39,7 @@ Softmax activation function goes like this: f(x_i) = exp(x_i) / Σ(exp(x_j)).
 
 This activation function helps to calculate the probabilities of the indivisual labels and the highest probability becomes the label .
 
--SGD OPTIMIZER CLASS
+-SGD OPTIMIZER CLASS-
 
 This class implements the Stochastic Gradient Descent optimization algorithm.
 
