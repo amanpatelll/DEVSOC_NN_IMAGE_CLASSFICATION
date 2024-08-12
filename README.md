@@ -8,28 +8,27 @@ link = https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=3
 Accuracy obtained = 92.810
 
 LINEAR LAYER CLASS
-
 A linear layer class is created that implements a fully connected (linear) layer.
 The forward method computes the forward pass: y = Wx + b . 
 
-# RELU ACTIVATION FUNC CLASS 
+RELU ACTIVATION FUNC CLASS 
 This class implements the ReLU activation function.
 ReLU activation function goes like this: f(x) = max(0, x) .
 
-# SIGMOID ACTIVATION FUNC CLASS
+SIGMOID ACTIVATION FUNC CLASS
 This class implements the sigmoid activation function.
 Sigmoid activation function goes like this: f(x) = 1 / (1 + e^(-x)).
 
-# TANH ACTIVATION FUNC CLASS
+TANH ACTIVATION FUNC CLASS
 This class implements the tanh activation function.
 Tanh activation function goes like this: f(x) = (e^x - e^(-x)) / (e^x + e^(-x)).
 
-# SOFTMAX ACTIVATION FUNC CLASS
+SOFTMAX ACTIVATION FUNC CLASS
 This class implements the softmax activation function.
 Softmax activation function goes like this: f(x_i) = exp(x_i) / Σ(exp(x_j)).
 This activation function helps to calculate the probabilities of the indivisual labels and the highest probability becomes the label .
 
-# SGD OPTIMIZER CLASS
+SGD OPTIMIZER CLASS
 This class implements the Stochastic Gradient Descent optimization algorithm.
 The SGD algorithm updates the parameters i.e weights and biases in the opposite direction of the gradient of the loss function with respect to the parameters.
 The size of the step is determined by the learning rate.
@@ -72,12 +71,12 @@ The size of the step is determined by the learning rate.
 
     Handles potential mismatches between the saved weights and the model's current architecture.
 
-# ONE HOT ENCODING AND NORMALIZING -
+ONE HOT ENCODING AND NORMALIZING -
 One - Hot encoding is done to make sure that the data is represented numerically
 Features (X_train) are normalized pixel values.
 Labels (y_train) are one-hot encoded representations of the digits.
 
-# COMPILING AND TRAINING THE MODEL -
+COMPILING AND TRAINING THE MODEL -
 The model is created with 4 layers -
 
 The first layer has the Linear function .
