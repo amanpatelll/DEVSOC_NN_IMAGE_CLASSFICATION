@@ -23,7 +23,7 @@ Sigmoid activation function goes like this: f(x) = 1 / (1 + e^(-x)).
 This class implements the tanh activation function.
 Tanh activation function goes like this: f(x) = (e^x - e^(-x)) / (e^x + e^(-x)).
 
-# SOFTMAX ACTIVATION FUNC
+# SOFTMAX ACTIVATION FUNC CLASS
 This class implements the softmax activation function.
 Softmax activation function goes like this: f(x_i) = exp(x_i) / Σ(exp(x_j)).
 This activation function helps to calculate the probabilities of the indivisual labels and the highest probability becomes the label .
