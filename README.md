@@ -7,7 +7,7 @@ link = https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=3
 
 Accuracy obtained = 92.810
 
-# <H1>LINEAR LAYER CLASS<H1>
+# <h1>LINEAR LAYER CLASS</h1>
 A linear layer class is created that implements a fully connected (linear) layer.
 The forward method computes the forward pass: y = Wx + b . 
 
