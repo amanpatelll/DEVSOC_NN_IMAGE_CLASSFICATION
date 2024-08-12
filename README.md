@@ -10,33 +10,41 @@ Accuracy obtained = 92.810
 -LINEAR LAYER CLASS
 
 A linear layer class is created that implements a fully connected (linear) layer.
+
 The forward method computes the forward pass: y = Wx + b . 
 
 -RELU ACTIVATION FUNC CLASS 
 
 This class implements the ReLU activation function.
+
 ReLU activation function goes like this: f(x) = max(0, x) .
 
 -SIGMOID ACTIVATION FUNC CLASS
 
 This class implements the sigmoid activation function.
+
 Sigmoid activation function goes like this: f(x) = 1 / (1 + e^(-x)).
 
 -TANH ACTIVATION FUNC CLASS
 
 This class implements the tanh activation function.
+
 Tanh activation function goes like this: f(x) = (e^x - e^(-x)) / (e^x + e^(-x)).
 
 -SOFTMAX ACTIVATION FUNC CLASS
 
 This class implements the softmax activation function.
+
 Softmax activation function goes like this: f(x_i) = exp(x_i) / Σ(exp(x_j)).
+
 This activation function helps to calculate the probabilities of the indivisual labels and the highest probability becomes the label .
 
 -SGD OPTIMIZER CLASS
 
 This class implements the Stochastic Gradient Descent optimization algorithm.
+
 The SGD algorithm updates the parameters i.e weights and biases in the opposite direction of the gradient of the loss function with respect to the parameters.
+
 The size of the step is determined by the learning rate.
 
 ## MODEL CLASS 
