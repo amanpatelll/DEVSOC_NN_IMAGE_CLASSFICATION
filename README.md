@@ -2,6 +2,7 @@
 This repository is devoted to the DevSoc assignment on neural networks for mnist image classification .
 
 The code has been evaluated through the DIGIT RECOGNIZER competition on kaggle . 
+
 link = https://www.kaggle.com/competitions/digit-recognizer/code?competitionId=3004&sortBy=dateRun&tab=profile&excludeNonAccessedDatasources=false
 
 Accuracy obtained = 92.810
