@@ -1,5 +1,5 @@
 # DEVSOC_NN_IMAGE_CLASSFICATION
-This repository is devoted to the DevSoc assignment on neural networks for mnist image classification .
+This repository is devoted to implementing neural networks for mnist image classification .
 
 The code has been evaluated through the DIGIT RECOGNIZER competition on kaggle . 
 
